@@ -13,14 +13,24 @@
     <div class="banner">
         <div class="nav">
             <img src="./n/logo.png" class="logo">
-             <ul>
+           <!--    <ul>
                  <li><a href="">Home</a></li>
                  <li><a href="">About</a></li>
                  <li><a href="">Chef</a></li>
                  <li><a href="">Restaurant</a></li>
                  <li><a href="">Contacts</a></li>
-             </ul>
-             <button type="button">Sign Up</button>
+             </ul> -->
+               <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Chef</a></li>
+                    <li><a href="">Restaurant</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </nav>
+             <img src="./n/menu.png" class="menu-icon" onclick="menutoggle()">
+             <button type="button" class="sign">Sign Up</button>
         </div>
         <div class="content">
             <div class="mid">
@@ -41,5 +51,20 @@
             <img src="./n/img/menu-2.png">
         </div>
     </div>
+    
+    <!-- Js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
 </body>
 </html>
