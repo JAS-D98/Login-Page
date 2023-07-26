@@ -42,3 +42,13 @@ button:hover{border: none;color: white;}
 .bubble img:nth-child(8){animation-delay: 1s;width: 12px;}
 /* end live flow */
 .menu-icon{width: 28px;margin-left: 20px;display: none;}
+@media only screen and (max-width:800px){
+    nav ul{position: absolute;top: 90px;left: 0;background: #333;width: 100%;height: 20vh; overflow: hidden;transition: max-height 0.5s;}
+    nav ul li{display: block; margin-right: 50px;margin-top: 10px;margin-bottom: 10px;}
+    nav ul li a{color: #fff;}
+    .menu-icon{display: block;cursor: pointer;}
+    .logo{width: 17%;}
+    .sign{display:none;}
+    .content h1{font-size: 30px;margin-top: 60%;}
+    .content p{font-size: 11px;}
+}
