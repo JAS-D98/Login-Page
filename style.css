@@ -49,6 +49,6 @@ button:hover{border: none;color: white;}
     .menu-icon{display: block;cursor: pointer;}
     .logo{width: 17%;}
     .sign{display:none;}
-    .content h1{font-size: 30px;margin-top: 60%;}
+    .content h1{font-size: 30px;margin-top: 100%;}
     .content p{font-size: 11px;}
 }
