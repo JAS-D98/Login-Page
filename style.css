@@ -14,7 +14,7 @@
 /* end of navigation part  */
 
 /* start content */
-.content{transform: translate(-50%,-50%);color: wheat; left: 50%;top: 60%; position: absolute;text-align: center;font-style: italic;}
+.content{transform: translate(-50%,-50%);color: wheat; left: 50%;top: 60%; position: absolute;text-align: center;font-style: italic;width: 100%;}
 .content h1{font-size: 64px;margin-bottom: 20px;font-style: normal;}
 .content p{line-height: 25px;}
 .content button{cursor:pointer; margin: 10px;width: 150px;color: wheat;border: 2px solid white; text-transform: uppercase;font-weight: bold;position: relative; padding: 15px;border-radius: 25px;overflow: hidden;background: transparent;}
