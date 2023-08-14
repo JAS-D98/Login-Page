@@ -12,32 +12,28 @@
     <link rel="stylesheet" href="./learn.css" type="text/css">
 </head>
 <body>
-    <div class="banner">
+
+   <!--  start of welcome page -->
+    <div class="banner" id="home">
         <div class="nav">
             <img src="./n/logo.png" class="logo">
-           <!--    <ul>
-                 <li><a href="">Home</a></li>
-                 <li><a href="">About</a></li>
-                 <li><a href="">Chef</a></li>
-                 <li><a href="">Restaurant</a></li>
-                 <li><a href="">Contacts</a></li>
-             </ul> -->
              <nav>
-                <ul id="MenuItems">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Chef</a></li>
-                    <li><a href="">Restaurant</a></li>
-                    <li><a href="">Contacts</a></li>
+                <ul id="sideMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">products</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <img src="./n/img/icons8-cross-50.png" onclick="closeMenu()">
                 </ul>
+                <img src="./n/img/icons8-menu-50.png" onclick="openMenu()">
             </nav>
-            <img src="./n/menu.png" class="menu-icon" onclick="menutoggle()">
              <button type="button" class="sign">Sign Up</button>
         </div>
         <div class="content">
             <div class="mid">
             <h1>World's Biggest &amp; Best Coffee Shop</h1> 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea ipsa exercitationem architecto explicabo consequuntur aspernatur aperiam, dolores vitae dolorum cumque veritatis sapiente consectetur debitis alias assumenda eum non fugit? Repellendus!</p>
+            <p>Welcome to Heavens' Coffee Store! We're dedicated to crafting exceptional coffee experiences. Our passionate baristas create flavorful symphonies in every sip. Find solace or connection in our cozy corners. Join us to celebrate coffee and shared moments.</p>
             </div>
             <button type="button">See More <span></span></button>
             <button type="button">Order Now <span></span></button>
@@ -53,20 +49,139 @@
             <img src="./n/img/menu-2.png">
         </div>
     </div>
+  <!--   end of welcome page -->
+
+  <!-- start of products page -->
+  <section id="about">
+    <div class="about">
+        <div class="col-1">
+            <img src="./n/img/about section.jpeg">
+        </div>
+        <div class="col-2">
+            <div class="heading">
+                <h1>About Us</h1>
+            </div>
+            <p>Welcome to Heavens' Coffee Store, where every cup tells a story! At our cozy corner, we blend passion and perfection to serve you the finest coffee experience. From the first sip to the last drop, indulge in the rich flavors and inviting aromas meticulously crafted by our expert baristas. Join us in celebrating the art of coffee in every cherished moment.</p>
+        </div>
+
+    </div>
+  </section>
+  <!-- end of products page -->
+
+  <!-- start of products section -->
+  <div class="products" id="products">
+    <div class="heading">
+        <h1>Our Products</h1>
+    </div>
+    <div class="products-container">
+        <div class="product-1">
+            <img src="./n/img/gallery-2.webp">
+            <h3>Flat White</h3>
+            <p>A newcomer in the coffee world that is increasing popular.</p>
+        </div>
+        <div class="product-1">
+            <img src="./n/img/gallery-3.webp">
+            <h3>Cortado</h3>
+            <p>The cortado is relatively new in the world of coffee</p>
+        </div>
+        <div class="product-1">
+            <img src="./n/img/gallery-6.webp">
+            <h3>Americano</h3>
+            <p>The americano is so much more than a standard black coffee.</p>
+        </div>
+        <div class="product-1">
+            <img src="./n/img/Mocha.webp">
+            <h3>Mocha</h3>
+            <p>Deliciously sweet, nutty and chocolatey. </p>
+        </div>
+        <div class="product-1">
+            <img src="./n/img/Machiatto.webp">
+            <h3>Machiatto</h3>
+            <p>An espresso coffee drink, topped with a small amount of foamed milk to enable the espresso taste to shine through.</p>
+        </div>
+        <div class="product-1">
+            <img src="./n/img/Iced.webp">
+            <h3>Iced Coffee</h3>
+            <p>On a hot summer's day, is there anything better than sipping on an iced coffee?</p>
+        </div>
+    </div>
+    <button type="button" class="b1">View More</button>
+  </div>
+    <!-- end of products section -->
+
+ <!--    start of teams section -->
+ <div class="team" >
+    <section>
+        <div class="about">
+            <div class="col-1">
+                <img src="./n/img/Newest.jpeg">
+            </div>
+            <div class="col-2">
+                <p>"Embark on a sip of discovery with our newest coffee creation – a journey of flavors waiting to awaken your senses."</p>
+            </div>
+        </div>
+      </section>
+      <!-- end of market page -->
+    
+      <!-- start of products section -->
+      <div class="products" id="team">
+        <div class="heading">
+            <h1>Our Team</h1>
+        </div>
+        <div class="products-container">
+            <div class="product-1">
+                <img src="./n/img/our-team-3.jpg">
+                <h3>Mary Waters</h3>
+                <p>General Manager</p>
+            </div>
+            <div class="product-1">
+                <img src="./n/img/our-team-6.jpg">
+                <h3>Mark Danie</h3>
+                <p>Chief Chef</p>
+            </div>
+            <div class="product-1">
+                <img src="./n/img/Assistant.jpeg">
+                <h3>Matthew Wes</h3>
+                <p>Assistant Chef</p>
+            </div>
+            <div class="product-1">
+                <img src="./n/img/cashier.webp">
+                <h3>Marion Steve</h3>
+                <p>Cashier</p>
+            </div>
+            <div class="product-1">
+                <img src="./n/img/our-team-2.jpg">
+                <h3>Brian Path</h3>
+                <p>Table Attendant</p>
+            </div>
+            <div class="product-1">
+                <img src="./n/img/red service.jpeg">
+                <h3>Alice Kate</h3>
+                <p>Order Guide</p>
+            </div>
+        </div>
+      </div>
+ </div>
+   <!--  end of teams section -->
+
+   <div class="contacts" id="contacts">
+    <div class="heading">
+        <h1>Contact Us</h1>
+    </div>
+    <div class="container">
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="./n/pexels_videos_2675515 (1080p).mp4" type="video/mp4"> 
+    </video>
+    <div class="content">
+        <h1>Send Us a Message</h1>
+        <p>heavenscafe@gmail.com</p>
+        <p>&copy; Designed By Jasper | All rights reserved</p>
+        <p><a href="#">Scroll Up</a></p>
+    </div>
+   </div>
+</div>
 
     <!-- Js for toggle menu -->
-<script>
-    var MenuItems = document.getElementById("MenuItems")
-    MenuItems.style.maxHeight = "0px";
-    function menutoggle(){
-        if(MenuItems.style.maxHeight == "0px")
-        {
-            MenuItems.style.maxHeight = "200px";
-        }
-        else{
-            MenuItems.style.maxHeight = "0px";
-        }
-    }
-</script>
+<script src="./index.js"></script>
 </body>
 </html>
